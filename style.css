@@ -1,1 +1,11 @@
+*{
+    font-family: Arial;
+}
+body {
+    background-image: url("mountains.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh; 
+}
 
