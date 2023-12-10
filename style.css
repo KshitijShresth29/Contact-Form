@@ -43,3 +43,15 @@ input, textarea{
     border-bottom: 1px solid #D3D3D3;
 
 }
+
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 1px solid rgb(233, 14, 14);
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(233, 14, 14);
+}
+
